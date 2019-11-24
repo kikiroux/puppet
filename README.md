@@ -18,3 +18,7 @@ node default {
 
 ```
 * puppet agent -t (sur le master pour voir si le message s'affiche bien)
+## installation de puppet 6 agent 
+* apt-get install puppet-agent
+* /opt/puppetlabs/bin/puppet resource service puppet ensure=running enable=true
+
