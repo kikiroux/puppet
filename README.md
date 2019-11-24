@@ -17,4 +17,4 @@ node default {
 }
 
 ```
-* puppet agent -t
+* puppet agent -t (sur le master pour voir si le message s'affiche bien)
